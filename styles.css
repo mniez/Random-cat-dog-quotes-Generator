@@ -1,0 +1,108 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia;
+    background-size: cover;
+    background-size: flex;
+   
+    background-image: url("https://wallpaperaccess.com/full/1567679.jpg");
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#activity1 {
+    font-size: 30px;
+    color: #fbefcc;
+    font-style: Lucida Console;
+    margin-top: auto;
+    
+    
+}
+#quoteContainer {
+    text-align: center;
+    font-size: 14px;
+    color: #fbefcc;
+    
+}
+
+#quote {
+    text-align: center;
+    font-size: 14px;  
+}
+
+
+#imageContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 2fr);
+    gap: 50px;
+    margin-right: 500px;
+    color: #fbefcc;
+    padding-left: 300px;
+}
+
+#dogImage, #catImage {
+    width: 425px;
+    height: 425px;
+    border: 4px solid #e6d0d0; /*border color*/
+    border-radius: 30px;
+    border: 2px solid #cebcbc;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out; 
+}
+
+#dogImage:hover,
+#catImage:hover {
+    transform: scale(1.1); 
+}
+    
+
+#boxModel {
+    width: 90%;
+    height: 90px;
+    border: 2px solid #bfb5b5;
+    margin-top: 20px;
+    
+}
+
+#authorbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 400px;
+    text-decoration: dotted;
+}
+
+
+button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #000000; /*button color*/
+    color: rgb(224, 208, 208);
+    font-style: georgia;
+    border: 1px solid rgb(242, 215, 215);   
+    
+}
+
+#submittedBy {
+    font-size: 16   px ;
+    padding: 2px; 
+    color: #e6d0d0;
+}
+
